@@ -8,6 +8,10 @@ body {
     background-color: #0a192f;
 }
 
+strong {
+    font-weight: normal;
+}
+
 #topnav {
     display: flex;
     justify-content: center;
