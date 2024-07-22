@@ -30,3 +30,21 @@ function animateText() {
 }
 
 animateText();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                entry.target.classList.remove('hidden');
+            } else {
+                entry.target.classList.remove('animate');
+                entry.target.classList.add('hidden');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.hidden').forEach(element => {
+        observer.observe(element);
+    });
+});
