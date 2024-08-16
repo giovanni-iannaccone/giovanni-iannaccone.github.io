@@ -61,7 +61,7 @@ footer {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     min-height: 185px;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
@@ -89,7 +89,7 @@ footer {
 
 .container {
     color: #ffff;
-    max-width: 800px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -106,7 +106,7 @@ footer {
 .experience-details {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .experience-item {
@@ -146,7 +146,7 @@ footer {
     background-color: #ffff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    flex: 0 0 calc(33.33% - 20px); 
+    flex: 0 0 calc(33.33% - 100px); 
     margin: 10px; 
     padding: 15px;
     transition: transform 0.3s ease;
@@ -195,7 +195,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    
     .menu-text {
         font-size: 1.2rem;
         margin: 0 20px;
