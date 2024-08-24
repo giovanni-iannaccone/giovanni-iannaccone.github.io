@@ -3,101 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Giovanni Iannaccone - Cybersecurity Expert & Full-Stack Developer">
+    <meta name="description" content="Giovanni Iannaccone - Hacker and Developer">
+    <meta name="keywords" content="Giovanni Iannaccone, hacker, developer, mobile developer, full-stack developer, os developer, operating systems developer, ">
+    <meta name="author" content="Giovanni Iannaccone">
+
     <title>Giovanni Iannaccone</title>
-    <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="topnav">
-        <a class="menu-text" href="#about">0x01 About</a>
-        <a class="menu-text" href="#experience">0x02 Experience</a>
-        <a class="menu-text" href="#contact">0x03 Contact</a>
+    <nav id="navbar">
+        <div id="socials">
+            <a href="https://instagram.com/g.iovannii" target="_blank" rel="noopener noreferrer"><img src="assets/ig-logo.png"></a>
+            <a href="https://github.com/giovanni-iannaccone" target="_blank" rel="noopener noreferrer"><img src="assets/github-logo.png"></a>
+            <a href="mailto:iannacconegiovanni444@gmail.com" target="_blank" rel="noopener noreferrer"><img src="assets/email-logo.png"></a>
+        </div>
+
+        <div id="menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+        </div>
     </nav>
 
+    <section id="intro">
+        <div id="intro-text">
+            <h1 class="main-title">Giovanni</h1>
+            <h1 class="main-title">Iannaccone</h1>
+            <h2 id="subtitle">Hacker and Developer</h2>
+        </div>
+        <fieldset id="wheel">
+            <ul>
+              <li>Hacker</li>
+              <li>OS dev</li>
+              <li>Full-stack dev</li>
+              <li>UI/UX designer</li>
+              <li>Mobile dev</li>
+              <li>Pentester</li>
+            </ul>
+          </fieldset>
+    </section>
+
+    <h1>Great intro, but who am I ? </h1>
     <section id="about">
-        <div class="container hidden">
-            <h1>About Me</h1>
-            <div class="presentation">
-                <h2 id="dynamicText">Hi, I'm Giovanni !</h2>
-                <p>
-                    A 17-year-old pentester, exploit writer, and red teamer</strong>. My programming toolkit includes <span class="presentation-marked">Python</span>, <span class="presentation-marked">C</span>, <span class="presentation-marked">Go</span>, and <span class="presentation-marked">JavaScript</span>. I'm a dedicated <span class="presentation-marked">Linux</span> enthusiast and a fan of CTFs. I am also a full-stack web developer proficient in <span class="presentation-marked">PHP</span> and tools like <span class="presentation-marked">React</span>, <span class="presentation-marked">Node.js</span>, <span class="presentation-marked">Tailwind</span>, <span class="presentation-marked">MySQL</span>, <span class="presentation-marked">Git</span>, and <span class="presentation-marked">Flutter</span>. My journey includes developing sleek web apps, crafting responsive designs, and fine-tuning back-end performance. I’m also diving into <span class="presentation-marked">OS development</span>, always eager to explore new technologies and elevate my skills. 🚀
-                </p>
+        <div class="container">
+            <div class="presentation-slide">
+                <p>Before I turned 13, I had never even touched a computer. But when I finally did, it was love at first sight. My curiosity was insatiable—I needed to understand how everything worked. This burning desire led me to delve into programming. I started with C++, creating my first simple programs, and then transitioned to Python. Each new language and concept I learned only deepened my passion for coding.</p>
+            </div>
+            <img src="assets/astronaut.png" alt="astronaut">
+        </div>
+
+        <div class="container">
+            <img src="assets/astronaut_tree.png" alt="astronaut with tree">
+            <div class="presentation-slide">
+                <p>As I ventured further into programming, I became intrigued by web development. The complexity and creativity involved fascinated me. During my exploration, I stumbled upon articles about web hacking. This new world captured my imagination completely. I decided to immerse myself in ethical hacking, publishing scripts, and participating in Capture The Flag (CTF) competitions. These experiences were pivotal, enhancing my problem-solving skills and expanding my understanding of cybersecurity.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="presentation-slide">
+                <p>As I continued to grow as a programmer, I became curious about how operating systems worked. The idea of diving deep into the core of a computer's functionality intrigued me, so I began exploring OS development. This journey into the low-level workings of computers was challenging but incredibly rewarding. It taught me the importance of efficiency, memory management, and the intricate relationship between hardware and software. Through building and experimenting with my own small operating systems, I developed a deeper understanding of the foundations of computing.</p>
+            </div>
+            <img src="assets/astronaut_and_aliens.png" alt="astronaut and aliens">
+        </div>
+
+        <div class="container">
+            <img src="assets/astronaut_on_earth.png" alt="astronaut on earth">
+            <div class="presentation-slide">
+                <p>Now, as a 17-year-old self-taught programmer, I look back on my journey with pride. From a curious beginner with no computer experience to a developer with a diverse skill set and real-world experience, my path has been both challenging and incredibly fulfilling. The journey is far from over, but the lessons learned and the milestones achieved have set a strong foundation for my future in tech.</p>
             </div>
         </div>
     </section>
 
-    <section id="experience">
+    <h1>Skills</h1>
+    <section id="skills">
+        <div id="skills-wrapper">
+            <div class="slider">
+                <div class="slider-track">
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="C"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain-wordmark.svg" alt="Arduino"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="Go"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg" alt="PHP"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="TypeScript"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" alt="HTML"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="CSS"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git"></div>
+                    <div class="slide"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1>"Yes yes, but we want to see your work"</h1>
+    <section id="experience" class="section-content">
         <div class="container">
-            <h1>Experience</h1>
             <div class="experience-details">
                 <div class="experience-item hidden">
                     <a href="https://github.com/giovanni-iannaccone/WebWeaver" target="_blank" rel="noopener noreferrer">WebWeaver</a>
-                    <p>🕸 Created a <span class="presentation-marked">high-performance Golang load balancer</span> easy to set up; featuring various algorithms, logs writing and health checks.</p>
+                    <p>Created a <span class="marked-text">high-performance Golang load balancer</span> easy to set up; featuring various algorithms, logs writing and health checks.</p>
                 </div>
                 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a href="https://tryhackme.com/p/g.iovannii" target="_blank" rel="noopener noreferrer">TryHackMe</a>
-                    <p>🔐 My passion for cybersecurity has propelled me to be <span class="presentation-marked">one of the top hackers on TryHackMe</span>, pushing boundaries and uncovering new challenges.</p>
+                    <p>My passion for cybersecurity has propelled me to be <span class="marked-text">one of the top hackers on TryHackMe</span>, pushing boundaries and uncovering new challenges.</p>
                 </div>
 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a>Giovanni OS</a>
-                    <p>🛠️ Developed an <span class="presentation-marked">operating system from scratch</span>, built on the <strong>Linux</strong> kernel, which gave me a better understanding of linux.</p>
+                    <p>Developed an <span class="marked-text">operating system from scratch</span>, built on the Linux kernel, which gave me a better understanding of linux.</p>
                 </div>
 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a href="https://github.com/giovanni-iannaccone/FlutCrack" target="_blank" rel="noopener noreferrer">FlutCrack</a>
-                    <p>📱 Designed an Android app using Flutter that cracks hashes, showcasing my skills in <span class="presentation-marked">mobile development and cybersecurity</span>.</p>
+                    <p>Designed an Android app using Flutter that cracks hashes, showcasing my skills in <span class="marked-text">mobile development and cybersecurity</span>.</p>
                 </div>
                 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a>codiumItalia</a>
-                    <p>⏳ Coming soon...</p>
+                    <p>Coming soon...</p>
                 </div>
 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a href="https://github.com/giovanni-iannaccone/ians" target="_blank" rel="noopener noreferrer">Ians</a>
-                    <p>🌵 A versatile <strong>hacking</strong> tool I like to call the <span class="presentation-marked">"Swiss army knife"</span> of hacking, perfect for a variety of tactical operations.</p>
+                    <p>A versatile hacking tool I like to call the <span class="marked-text">"Swiss army knife"</span> of hacking, perfect for a variety of tactical operations.</p>
                 </div>
 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a>Various Websites</a>
-                    <p>🌐 Developed numerous <span class="presentation-marked">small websites</span> that integrate APIs and databases, each tailored to unique needs and challenges.</p>
+                    <p>Developed numerous <span class="marked-text">small websites</span> that integrate APIs and databases, each tailored to unique needs and challenges.</p>
                 </div>
 
-                <div class="experience-item hidden">
+                <div class="experience-item">
                     <a href="https://leetcode.com/u/giovanni_iannaccone123/" target="_blank" rel="noopener noreferrer">LeetCode</a>
-                    <p>🧠 In my downtime, I love solving <span class="presentation-marked">LeetCode problems</span> to sharpen my problem-solving skills and stay engaged with coding challenges.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h1>Contact</h1>
-            <div class="contact-details">
-                <div class="contact-item hidden">
-                    <h2>Email</h2>
-                    <p>📧 <a href="mailto:iannacconegiovanni444@gmail.com">iannacconegiovanni444@gmail.com</a> (Send if you want to collaborate)</p>
-                </div>
-                
-                <div class="contact-item hidden">
-                    <h2>Social Media</h2>
-                    <p>
-                        📸 <a href="https://instagram.com/g.iovannii" target="_blank" rel="noopener noreferrer">Instagram: @g.iovannii</a><br>
-                        💻 <a href="https://github.com/giovanni-iannaccone" target="_blank" rel="noopener noreferrer">GitHub: @giovanni-iannaccone</a>
-                    </p>
+                    <p>In my downtime, I love solving <span class="marked-text">LeetCode problems</span> to sharpen my problem-solving skills and stay engaged with coding challenges.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>All rights reserved. © 2024 Giovanni Iannaccone</p>
+        <div>
+            <img src="assets/colibri_image.png" alt="colibri">
+            <p id="quote-text">"Think different."</p>
+            <p id="quote-author">- Steve Jobs</p>
+        </div>
+        <p>All rights reserved. © 2024 Giovanni Francesco Iannaccone</p>
     </footer>
+    
 
-    <script src="script.js"></script>
+    <script src="script.js" async></script>
 </body>
 </html>
