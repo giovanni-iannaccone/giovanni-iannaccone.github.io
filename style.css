@@ -23,7 +23,7 @@ h1 {
 }
 
 section {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .marked-text {
@@ -43,39 +43,41 @@ section {
 }
 
 #navbar #menu a {
-    color: #333;
+    color: #252525;
     text-decoration: none;
     margin: 0 20px;
     font-size: 1.1rem;
     font-weight: bold;
-    transition: color 0.3s, transform 0.3s;
-}
-
-#navbar div img {
-    width: 45px;
+    position: relative;
+    transition: all 0.3s ease-in;
 }
 
 #navbar #menu a:hover {
-    color: #fff;
+    color: white;
+}
+
+#navbar img {
+    width: 45px;
 }
 
 #intro {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 100vh;
     position: relative;
     color: #fff;
     overflow: hidden;
+    padding: 0 30px;
 }
 
 #intro-text {
-    position: absolute;
     left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    text-align: left;
+}
+
+#intro img {
+    border: 2px solid black;
+    border-radius: 100%;
 }
 
 .main-title {
@@ -86,65 +88,31 @@ section {
 }
 
 #subtitle {
-    font-family: 'Roboto', Arial, sans-serif;
     font-size: 1.75rem;
     color: #fff;
     margin-top: 10px;
 }
 
-#wheel {
-    --_items: 6;
-    all: unset;
-    aspect-ratio: 1 / 1;
-    container-type: inline-size;
-    direction: ltr;
-    display: grid;
-    position: relative;
-    width: 80vmin;
-    max-width: 700px;
-    height: 80vmin;
-    right: -75%;
-    transform: translateX(50%);
-    animation: rotate 45s linear infinite;
-}
-  
-ul {
-    all: unset;
-    clip-path: inset(0 0 0 0 round 50%);
-    display: grid;
-    inset: 0;
-    place-content: center start;
-  
-    li {
-        align-content: center;
-        aspect-ratio: 1 / calc(2 * tan(180deg / var(--_items)));
-        background: rgba(0, 0, 0, 0.8);
-        clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-        display: grid;
-        font-size: 6cqi;
-        grid-area: 1 / -1;
-        padding-left: 1ch;
-        rotate: calc(360deg / var(--_items) * calc(var(--_idx) - 1));
-        transform-origin: center right;
-        user-select: none;
-        width: 50cqi;
-
-        &:nth-of-type(1) { --_idx: 1; }
-        &:nth-of-type(2) { --_idx: 2; }
-        &:nth-of-type(3) { --_idx: 3; }
-        &:nth-of-type(4) { --_idx: 4; }
-        &:nth-of-type(5) { --_idx: 5; }
-        &:nth-of-type(6) { --_idx: 6; }
-    }
+#about {
+    padding: 20px 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    gap: 20px;
 }
 
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+#about h1 {
+    color: #252525;
+}
+
+#about span {
+    font-size: 120%;
+}
+
+#about div {
+    width: 100%;
+    padding: 0 4%;
 }
 
 .container {
@@ -159,30 +127,6 @@ ul {
     position: relative;
     margin: 0;
     width: 20%;
-}
-
-#about {
-    width: 100%;
-    gap: 20px;
-}
-
-.presentation-slide {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    width: 30%;
-    padding: 30px;
-    text-align: justify;
-    transition: transform 0.3s ease;
-}
-
-.presentation-slide p {
-    color: #000;
-    top: 50px;
-}
-
-.presentation-slide:hover {
-    transform: translateY(-5px) scale(1.1);
 }
 
 #skills-wrapper {
@@ -231,13 +175,13 @@ ul {
     }
 }
 
-.experience-details {
+.projects-details {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.experience-item {
+.projects-item {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -245,24 +189,46 @@ ul {
     transition: transform 0.3s ease;
 }
 
-.experience-item:hover {
+.projects-item:hover {
     transform: translateY(-5px) scale(1.1);
 }
 
-.experience-item a {
+.projects-item a {
     color: #252525;
     font-size: 2rem;
     text-decoration: none;
-    font-family: 'Roboto', Arial, sans-serif;
 }
 
-.experience-item a:hover {
+.projects-item a:hover {
     text-decoration: underline;
 }
 
-.experience-item p {
+.projects-item p {
     color: #252525;
     margin-top: 40px;
+}
+
+#projects-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects-link-container button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 100rem;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10px 15px;
+    transition: all .3s ease-in-out;
+}
+
+#projects-link-container button:hover {
+    color: #252525;
+    background-color: white;
 }
 
 footer {
@@ -283,7 +249,6 @@ footer div img {
 }
 
 #quote-text {
-    font-family: 'RF Dewi', sans-serif;
     font-size: 6rem;
     font-weight: 700;
     color: #ffffff;
@@ -292,7 +257,6 @@ footer div img {
 }
 
 #quote-author {
-    font-family: 'RF Dewi', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: #b5b5b5;
@@ -300,7 +264,6 @@ footer div img {
 }
 
 footer p {
-    font-family: 'Roboto', Arial, sans-serif;
     font-size: 1rem;
     color: #b5b5b5;
     margin-top: 20px; 
@@ -310,7 +273,6 @@ footer p {
     display: none;
 }
 
-/* Layout per tablet */
 @media (max-width: 1023px) and (min-width: 768px) {
 
     #intro {
@@ -329,14 +291,6 @@ footer p {
         font-size: 3rem;
     }
 
-    #wheel {
-        top: 25%;
-        right: -50%;
-        width: 80vw;
-        height: 80vw;
-        position: absolute;
-    }
-
     .container {
         flex-direction: column;
         align-items: center;
@@ -352,12 +306,11 @@ footer p {
         margin-bottom: 20px;
     }
 
-    .experience-details {
+    .projects-details {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Layout per smartphone */
 @media (max-width: 767px) {
     #navbar {
         flex-direction: column;
@@ -384,14 +337,6 @@ footer p {
         font-size: 2.25rem;
     }
 
-    #wheel {
-        top: 25%;
-        right: -50%;
-        width: 400px;
-        height: 400px;
-        position: absolute;
-    }
-
     .container {
         flex-direction: column;
         align-items: center;
@@ -407,7 +352,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    .experience-details {
+    .projects-details {
         grid-template-columns: 1fr;
     }
 
