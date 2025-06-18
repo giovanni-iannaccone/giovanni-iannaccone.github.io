@@ -175,7 +175,7 @@ section {
     }
 }
 
-.projects-details {
+#projects-details {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
@@ -306,7 +306,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    .projects-details {
+    #projects-details {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -352,7 +352,7 @@ footer p {
         margin-bottom: 20px;
     }
 
-    .projects-details {
+    #projects-details {
         grid-template-columns: 1fr;
     }
 

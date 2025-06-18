@@ -1,5 +1,3 @@
-const dynamicTextElement = document.getElementById('subtitle');
-
 const texts = [
     "Ethical Hacker               ",
     "Operating Systems Developer  ",
@@ -16,6 +14,8 @@ let writingInterval;
 let animationSpeed = 100;
 
 function animateText() {
+    const dynamicTextElement = document.getElementById('subtitle');
+
     let newText = texts[currentIndex];
     let minTextLength = Math.min(currentText.length, newText.length);
     let animatedText = "";
