@@ -1,0 +1,23 @@
+{
+    "bash":         "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+    "C":            "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    "C++":          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    "Rust":         "https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg",
+    "Go":           "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
+    "Dart":         "https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg",
+    "Python":       "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "php":          "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg",
+    "JavaScript":   "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+    "TypeScript":   "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
+    "HTML":         "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg",
+    "CSS":          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg",
+    "Tailwind":     "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+    "React":        "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    "Node.js":      "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    "Flutter":      "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+    "MySQL":        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+    "Git":          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    "Docker":       "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    "Linux":        "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+    "Arduino":      "https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain-wordmark.svg"
+}

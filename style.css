@@ -4,7 +4,7 @@
 
 html, body {
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(130deg, #6366f1 10%, #0ea5e9 30%, #10b981 70%);
@@ -13,7 +13,7 @@ html, body {
 }
 
 h1, .main-title {
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P", cursive;
 }
 
 h1 {
@@ -76,7 +76,7 @@ section {
 }
 
 #intro img {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 100%;
 }
 
@@ -136,14 +136,14 @@ section {
     overflow: hidden;
 }
 
-.slider {
+#slider {
     width: 100%;
     overflow: hidden;
     position: relative;
     height: 150px;
 }
 
-.slider-track {
+#slider-track {
     display: flex;
     gap: 40px;
     width: max-content;

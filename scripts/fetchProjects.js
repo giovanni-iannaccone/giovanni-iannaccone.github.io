@@ -1,6 +1,5 @@
 async function fetchProjects(limit) {
     let i = 0;
-    console.log(limit);
 
     const response = await fetch("/assets/projects.json");
     const projects = await response.json();
