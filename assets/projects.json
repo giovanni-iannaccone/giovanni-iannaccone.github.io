@@ -4,9 +4,14 @@
         "I designed an Android app using Flutter that cracks hashes, showcasing my skills in <span class='marked-text'>mobile development and cybersecurity</span>."
     ],
 
+    "WebWeaver": [
+        "https://github.com/giovanni-iannaccone/WebWeaver",
+        "I created a <span class='marked-text'>high-performance load balancer</span> easy to set up; featuring various algorithms, logs writing, health checks and an auto-updating dashboard."
+    ],
+
     "Giovanni OS": [
         "",
-        "I developed an <span class='marked-text'>operating system from scratch</span>, built on the Linux kernel, which gave me a better understanding of linux"
+        "I developed an <span class='marked-text'>operating system from scratch</span>, built on the Linux kernel, which gave me a better understanding of linux."
     ],
 
     "TryHackMe": [
@@ -14,24 +19,19 @@
         "My passion for cybersecurity has propelled me to be <span class='marked-text'>one of the top hackers on TryHackMe</span>, pushing boundaries and uncovering new challenges."
     ],
 
+    "raccoon": [
+        "https://github.com/giovanni-iannaccone/raccoon",
+        "Is a lightweight and <span class='marked-text'>efficient C++ library</span> for working with PPM image files. It allows you to easily modify and create PPM images."
+    ],
+
     "ians": [
         "https://github.com/giovanni-iannaccone/ians",
         "A versatile hacking tool I like to call the <span class='marked-text'>\"Swiss army knife\"</span> of hacking, perfect for a variety of tactical operations."
     ],
 
-    "WebWeaver": [
-        "https://github.com/giovanni-iannaccone/WebWeaver",
-        "I created a <span class='marked-text'>high-performance Golang load balancer</span> easy to set up; featuring various algorithms, logs writing, health checks and a dashboard"
-    ],
-
-    "raccoon": [
-        "https://github.com/giovanni-iannaccone/raccoon",
-        "Is a lightweight and <span class='marked-text'>efficient C++ library</span> for working with PPM image files. It allows you to easily modify and create PPM images"
-    ],
-
-    "kfd": [
-        "https://github.com/giovanni-iannaccone/kfd",
-        "kfd is a command-line tool for generating secure and random strings like <span class='marked-text'>keys</span>, <span class='marked-text'>tokens</span> and <span class='marked-text'>identifiers</span>."
+    "subnethero": [
+        "https://github.com/giovanni-iannaccone/subnethero",
+        "A command-line tool that simplifies <span class='marked-text'>subnetting</span> and IP range management. It supports flat, FLSM, and VLSM schemes."
     ],
 
     "Jinjector": [
@@ -39,6 +39,11 @@
         "Powerful golang tool designed to <span class='marked-text'>inject backdoors</span> into Joomla module's main file, allowing a connection whenever the module is triggered."
     ],
     
+    "chan": [
+        "https://github.com/giovanni-iannaccone/chan",
+        "This project brings <span class='marked-text'>Golang- and Rust-like channel communication</span> to modern C++, allowing safe and intuitive message passing between threads."
+    ],
+
     "R4Quest": [
         "https://github.com/giovanni-iannaccone/R4Quest",
         "R4Quest is a fast HTTP client tailored for the <span class='marked-text'>Arduino R4 platform</span>. It offers a flexible API for efficient HTTP requests in <span class='marked-text'>embedded projects</span>."
@@ -46,7 +51,12 @@
 
     "Memory allocator": [
         "https://github.com/giovanni-iannaccone/memory-allocator",
-        "A custom memory allocation system. It includes <span class='marked-text'>malloc</span>, <span class='marked-text'>free</span>, <span class='marked-text'>calloc </span> and <span class='marked-text'>realloc</span> functions, offering a deep dive into <span class='marked-text'>memory handling </span>"
+        "A custom memory allocation system. It includes <span class='marked-text'>malloc</span>, <span class='marked-text'>free</span>, <span class='marked-text'>calloc </span> and <span class='marked-text'>realloc</span> functions, offering a deep dive into <span class='marked-text'>memory handling </span>."
+    ],
+
+    "mix": [
+        "https://github.com/giovanni-iannaccone/mix",
+        "Flexible C++ container that <span class='marked-text'>stores objects of any type at runtime</span>, unlike standard containers requiring fixed types. It avoids complex wrappers like std::any."
     ],
 
     "GCC Cross Compiler": [
@@ -54,19 +64,24 @@
         "As an OS developer, I understand the frustration of building <span class='marked-text'>cross-compilers</span>. This is a <span class='marked-text'>multi-platform</span> script that <span class='marked-text'>fully automates</span> that process."
     ],
 
+    "kfd": [
+        "https://github.com/giovanni-iannaccone/kfd",
+        "kfd is a command-line tool for generating secure and random strings like <span class='marked-text'>keys</span>, <span class='marked-text'>json web tokens</span> and <span class='marked-text'>identifiers</span>."
+    ],
+
     "Checksum generator": [
         "https://github.com/giovanni-iannaccone/Checksum-generator",
-        "Command-line tool written in C that generates <span class='marked-text'>checksums</span> for files using either the MD5 or SHA-256. It's very useful for <span class='marked-text'>verifying the integrity</span> of files"
+        "Command-line tool that generates <span class='marked-text'>checksums</span> for files using either the MD5 or SHA-256. It's very useful for <span class='marked-text'>verifying the integrity</span> of files."
     ],
 
     "mockGPT": [
         "https://github.com/giovanni-iannaccone/mockGPT",
-        "Is a tool that generates realistic and original mock data using <span class='marked-text'>ChatGPT</span>, even with <span class='marked-text'>Docker</span> integration for portability"
+        "Is a tool that generates realistic and original mock data using <span class='marked-text'>ChatGPT</span>, even with <span class='marked-text'>Docker</span> integration for portability."
     ],
 
     "Brainfuck translator": [
         "https://github.com/giovanni-iannaccone/brainfuck-translator",
-        "Simple C++ command-line tool that <span class='marked-text'>translates Brainfuck code into C++</span>. This is a fun way to convert a minimalist language into a more powerful one."
+        "Simple command-line tool that <span class='marked-text'>translates Brainfuck code into C++</span>. This is a fun way to convert a minimalist language into a more powerful one."
     ],
 
     "Assembly libs": [
