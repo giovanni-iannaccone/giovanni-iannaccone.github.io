@@ -86,7 +86,7 @@
 
     "Assembly libs": [
         "https://github.com/giovanni-iannaccone/assembly-libs",
-        "While learning <span class'marked-text'>x86 assembly</span>, I was really missing several basic functions, so I decided to implement them myself."
+        "While learning <span class='marked-text'>x86 assembly</span>, I was really missing several basic functions, so I decided to implement them myself."
     ],
 
     "Various Websites": [
