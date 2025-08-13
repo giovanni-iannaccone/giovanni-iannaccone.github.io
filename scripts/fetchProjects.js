@@ -11,7 +11,7 @@ async function fetchProjects(limit) {
             return;
 
         container.innerHTML += `
-            <div class="projects-item">
+            <div class="card">
                 <a href="${projects[key][0]}" target="_blank">${key}</a>
                 <p>${projects[key][1]}</p>
             </div>

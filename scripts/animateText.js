@@ -1,13 +1,13 @@
 const animationSpeed = 100;
 
 const texts = [
-    "Ethical Hacker               ",
-    "Operating Systems Developer  ",
-    "Low Level Programming Enjoyer",
-    "Open Source Enthusiast       ",
-    "I use linux btw              ",
-    "Full Stack Developer         ",
-    "UI/UX Designer               "
+    "Ethical Hacker                  ",
+    "Operating Systems Developer     ",
+    "Low Level Programming Enjoyer   ",
+    "Open Source Enthusiast          ",
+    "I implement things from scratch ",
+    "Full Stack Developer            ",
+    "UI/UX Designer                  "
 ];
 
 let currentIndex = 0;

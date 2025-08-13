@@ -112,7 +112,7 @@ section {
 
 #about div {
     width: 100%;
-    padding: 0 4%;
+    padding: 0 5%;
 }
 
 .container {
@@ -175,13 +175,7 @@ section {
     }
 }
 
-#projects-details {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.projects-item {
+.card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -189,23 +183,35 @@ section {
     transition: transform 0.3s ease;
 }
 
-.projects-item:hover {
+.card:hover {
     transform: translateY(-5px) scale(1.1);
 }
 
-.projects-item a {
+.card a {
     color: #252525;
     font-size: 2rem;
     text-decoration: none;
 }
 
-.projects-item a:hover {
+.card a:hover {
     text-decoration: underline;
 }
 
-.projects-item p {
+.card p {
     color: #252525;
     margin-top: 40px;
+}
+
+.card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-details {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #projects-link-container {
@@ -229,6 +235,21 @@ section {
 #projects-link-container button:hover {
     color: #252525;
     background-color: white;
+}
+
+#donate h3 {
+    color: white;
+    margin-left: 5%;
+}
+
+#donate-details {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#donate-details img {
+    width: max-content;
 }
 
 footer {

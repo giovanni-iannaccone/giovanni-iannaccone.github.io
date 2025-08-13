@@ -12,6 +12,10 @@
         margin-bottom: 20px;
     }
 
+    #profile-pic {
+        width: 60%;
+    }
+
     .main-title {
         font-size: 3rem;
     }
@@ -32,6 +36,10 @@
     }
 
     #projects-details {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #donate-details {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -58,6 +66,10 @@
         margin-bottom: 20px;
     }
 
+    #profile-pic {
+        width: 80%;
+    }
+
     .main-title {
         font-size: 2.25rem;
     }
@@ -78,6 +90,10 @@
     }
 
     #projects-details {
+        grid-template-columns: 1fr;
+    }
+
+    #donate-details {
         grid-template-columns: 1fr;
     }
 
